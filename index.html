@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>solar-2.0</title>
 
+
+    <!--swiper css-->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
     <!--box icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -199,9 +205,9 @@
         <h2 class="heading">Valuable <span>testimonial</span></h2>
         
         <div class="testimonial-wrapper">
-            <div class="testimonial-box">
-                <div class="testimonial-content">
-                    <div class="testimonial-slide">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
                         <img src="imagenes/testimonial.jpg" alt="">
                         <h3>MICHEEL JACKSON</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus 
@@ -213,11 +219,60 @@
                             Modi voluptates architecto ipsum soluta, 
                             impedit laboriosam sapiente incidunt.</p>
                     </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="imagenes/testimonial 2.jpg" alt="">
+                        <h3>ABRIL</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus 
+                            numquam pariatur possimus beatae rerum 
+                            dolorem recusandae aliquam dignissimos, 
+                            illo consequuntur ipsam perferendis corporis ipsa eos odio deserunt. 
+                            Quae libero sit sint, fuga repudiandae eos blanditiis neque ullam saepe porro, 
+                            explicabo rem ipsa aliquam inventore exercitationem asperiores laboriosam esse alias culpa. 
+                            Modi voluptates architecto ipsum soluta, 
+                            impedit laboriosam sapiente incidunt.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="imagenes/testimonial 3.jpg" alt="">
+                        <h3>LEONAR</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus 
+                            numquam pariatur possimus beatae rerum 
+                            dolorem recusandae aliquam dignissimos, 
+                            illo consequuntur ipsam perferendis corporis ipsa eos odio deserunt. 
+                            Quae libero sit sint, fuga repudiandae eos blanditiis neque ullam saepe porro, 
+                            explicabo rem ipsa aliquam inventore exercitationem asperiores laboriosam esse alias culpa. 
+                            Modi voluptates architecto ipsum soluta, 
+                            impedit laboriosam sapiente incidunt.</p>
+                    </div>
                 </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </div>
 
+    <!--contac section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobil Number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 
     <!-- custom js-->
